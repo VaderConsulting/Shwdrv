@@ -1,6 +1,6 @@
 # Shwdrv
 
-VB6 working copy of `Shwdrv` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Project1. Output: `Shwdrv.exe`. `VersionCompanyName`: SNL Securities, Inc. (Charlottesville).
+VB6 drive/server query tool (`Shwdrv.exe`): lists logical drive free space (`GetDiskFreeSpaceEx`) and related NetAPI helpers (`NetServerEnum` / workstation info); Form1 is redacted to `.example` in the repo. Open `Project1.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,25 +10,4 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`Project1.vbp`) | VB6 | WinForms exe | Project1 |
-
-## How to open
-
-Open the `.vbp` in Visual Basic 6.0 IDE:
-- `Project1.vbp`
-
-## Requirements
-
-- Visual Basic 6.0 IDE
-- Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
-  - `Mscomctl.ocx`
-
-## Attribution and provenance
-
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/Shwdrv`.
-Company names in project files: SNL Securities, Inc. (Charlottesville).
-Third-party attribution: SNL Securities, Inc. (Charlottesville). See `THIRD_PARTY_NOTICES.md`.
-
-## License
-
-Third-party code remains under its original terms (or none, where none were supplied). See `THIRD_PARTY_NOTICES.md`. Do not treat this tree as VaderConsulting original MIT-licensed work.
+| `Project1` (`Project1.vbp`) | VB6 | WinForms exe | Logical drive space and NetAPI server query UI |
